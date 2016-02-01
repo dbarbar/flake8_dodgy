@@ -1,0 +1,6 @@
+__description__ = ''
+__license__ = 'MIT'
+__uri__ = ''
+__version__ = '0.0.1-dev0'
+__author__ = 'David Barbarisi'
+__email__ = 'davidbarbarisi@gmail.com'
