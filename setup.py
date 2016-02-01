@@ -10,26 +10,25 @@ META_PATH = os.path.join("src", "flake8_dodgy", "__init__.py")
 KEYWORDS = ["flake8", "dodgy"]
 CLASSIFIERS = [
     'Development Status :: 3 - Alpha',
-    "Intended Audience :: Developers",
-    "Natural Language :: English",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python",
-    "Programming Language :: Python :: 2",
-    "Programming Language :: Python :: 2.7",
-    "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.5",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    'Environment :: Console',
-    'Topic :: Software Development :: Quality Assurance',
     'Intended Audience :: Developers',
+    'Natural Language :: English',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 2',
+    'Programming Language :: Python :: 2.7',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.5',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Environment :: Console',
+    'Topic :: Software Development :: Quality Assurance'
 ]
 INSTALL_REQUIRES = [
     'flake8 >= 2.5.2, < 3.0.0',
-    'dodgy >= 0.1.9, < 0.2.0',
+    'dodgy >= 0.1.9, < 1.0.0',
     'setuptools'
 ]
-TEST_REQUIRES = ['nose']
+TEST_REQUIRES = []
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 

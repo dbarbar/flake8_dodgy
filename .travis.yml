@@ -1,0 +1,9 @@
+deploy:
+  provider: pypi
+  user: dbarbar
+  password:
+    secure: hDc8+z+ayNH4jd/y0Q5EeVAoR9eYOkUaIOOL6eiTQeWGbaUinNATJD3oZd2Cg1Z8vUntUNJwhpdJjvq2YlK8PPl5eE9pWux3Tgq3DQ04ictgXOw+DSweXehQVGMRwjk9AzSBN/1ISBbu8lf98pIo0rBePX/sYf5z8k3fjDz/toKhKqtweXCqN2Xs/9iHC3Cbbp9rEsu7hFku1X4y4Q7C9A3HYCdm869jXXubqzcm496KZbGNS8CFB3L1EFrKHyjx3TT+tm3LBoBiQkmLqheZb0t/dp+C+dsNWiJ4LVv4l5ioAXLOhtvgg4u5a1al6ZkLGUzBTV6iBLEuLRq9FMZzwyylglBG0R1Xqu+c/IMVSBmrNbf7Mhi0wEml1O8i3+/UsT96Lv4STXZ7TZyfohzbFgKvWCl+b05VUd2O80yDy7XoaDozFjsk3l8zlWL2nG+NN4FfgR+cB9Cdmzx9oEblG9TC6E87+CmZSmeDxwRT2UBDQBERJoRmT+gUWJXz0Q5oAb8n4gERjyuYWIIHta0kKf8HCiafEqMf/uL8RC1RDvE83DAzBhptsNj7F0VmeAKt4D7JwONgaMnUDjHYsK6gxR0UNOkayUF+d4Q5sWQXim4RJN5JwFZjFNG/rfT60b7UKAHDxrLyyRbt9S53Z/jigMqM9iHD9l4E4xINQsZZhv8=
+  on:
+    tags: true
+    distributions: sdist bdist_wheel
+    repo: dbarbar/flake8_dodgy
