@@ -1,7 +1,7 @@
 AUTHORS
 =======
 
-
+ * David Barbarisi
  * Flake8_
  * Dodgy_
 

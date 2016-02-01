@@ -9,10 +9,12 @@ PACKAGES = find_packages(where="src")
 META_PATH = os.path.join("src", "flake8_dodgy", "__init__.py")
 KEYWORDS = ["flake8", "dodgy"]
 CLASSIFIERS = [
-    'Development Status :: 3 - Alpha',
+    'Development Status :: 4 - Beta',
+    'Environment :: Console',
+    'Environment :: Plugins',
     'Intended Audience :: Developers',
-    'Natural Language :: English',
     'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2',
@@ -20,7 +22,6 @@ CLASSIFIERS = [
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.5',
     'Topic :: Software Development :: Libraries :: Python Modules',
-    'Environment :: Console',
     'Topic :: Software Development :: Quality Assurance'
 ]
 INSTALL_REQUIRES = [
@@ -28,7 +29,7 @@ INSTALL_REQUIRES = [
     'dodgy >= 0.1.9, < 1.0.0',
     'setuptools'
 ]
-TEST_REQUIRES = []
+TEST_REQUIRES = ['nose2']
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 
