@@ -2,7 +2,7 @@ from unittest import TestCase
 from flake8_dodgy.flake8_dodgy import parse_check
 
 
-class TestParse_check(TestCase):
+class TestParseCheck(TestCase):
     def test_parse_check(self):
         input_check = (
             'the_key',
